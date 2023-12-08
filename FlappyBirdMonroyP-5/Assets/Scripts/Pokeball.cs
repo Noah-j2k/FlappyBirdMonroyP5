@@ -29,7 +29,7 @@ public class Pokeball : MonoBehaviour
         }
         
     }
-    void OnCollisonEnter2D ()
+    void OnCollisionEnter2D ()
     {
         isDead = true;
     }
